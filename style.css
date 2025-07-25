@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url('/Project3_StopTimer/imags/undraw_quiet-street_v45k.png');
+    background-size:cover;        
+    background-position: top;   
+    background-repeat: no-repeat;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+   
+}
+.container{
+    height: 400px;
+    width: 500px;
+    border: 1px solid rgb(236, 230, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 40px;
+    margin-top: 100px;
+    box-shadow: 0 0 20px rgb(161, 158, 158);
+    backdrop-filter: blur(5px);
+}
+.button img{
+    height: 70px;
+    margin-left: 20px;
+    transition: all linear 0.3s;
+}
+.button img:active{
+    scale: 0.9;
+}
+#start{
+    height: 100px;
+}
+#title{
+    color: #FF5636;
+}
